@@ -31,6 +31,29 @@ $ git clone https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs.git
 $ npm install @supabase/supbase-js
 ```
 
+- [Install ESLint Plugin](https://reactjs.org/docs/hooks-rules.html):
+
+```bash
+yarn add eslint-plugin-react-hooks@next
+# or
+npm install eslint-plugin-react-hooks@next
+```
+- ESLint config:
+```bash
+// Your ESLint configuration
+{
+  "plugins": [
+    // ...
+    "react-hooks"
+  ],
+  "rules": {
+    // ...
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
+  }
+}
+```
+
 - run the development server:
 
 ```bash
