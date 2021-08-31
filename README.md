@@ -19,22 +19,16 @@ A full-stack Slack clone example using:
 
 ## Getting Started
 
-- Install supabase chat server using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app):
+- Clone the repository with:
 
-```bash
-$ npx create-next-app supabase-chat-server
+```
+$ git clone https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs.git
 ```
 
 - Install supabase Javascript client:
 
 ```bash
 $ npm install @supabase/supbase-js
-```
-
-- Clone the repository with:
-
-```
-$ git clone https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs.git
 ```
 
 - run the development server:
