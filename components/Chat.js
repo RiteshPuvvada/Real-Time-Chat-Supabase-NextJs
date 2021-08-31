@@ -132,7 +132,7 @@ const Chat = ({ currentUser, session, supabase }) => {
         <div className={styles.container}>
             {messages.map(message => 
                 <div key = {message.id} className={styles.messageContainer}> 
-                    <span className = {styles.user}>{username(message.user_id)}</span>
+                    <span className = {styles.user}>{username(currentUser.username)}</span>
                     <div>{message.content}</div>
                 </div>
             )}
