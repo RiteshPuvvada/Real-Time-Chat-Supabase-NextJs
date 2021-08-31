@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+.header {
+  top: 0;
+  position: fixed;
+  background: #1D1F20;
+  height: 130px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+
+.headerText {
+  flex: 1;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  color:#23d5ab;
+  font-family: 'Aclonica', sans-serif;
+}
+
+.settings {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+.btn, .btnn, .btnnn{
+  margin: 5px;
+}
+.btn{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:30px;
+  font-size:1em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.btn:hover{
+  background:#fff;
+  color:#FF6347;
+}
+.btn:before,.btn:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.btn:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn:hover:before,.btn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+.btnn{
+  background:#FF6347;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:30px;
+  font-size:1em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.btnn:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.btnn:before,.btnn:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #FF6347;
+  transition:400ms ease all;
+}
+.btnn:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btnn:hover:before,.btnn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.btnnn{
+  background:#674d3c;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:30px;
+  font-size:1em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.btnnn:hover{
+  background:#fff;
+  color:#a2836e;
+}
+.btnnn:before,.btnnn:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #674d3c;
+  transition:400ms ease all;
+}
+.btnnn:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btnnn:hover:before,.btnnn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.container {
+  width: 40cm;
+  margin-right: 10px;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 120px 0 1px 0;
+}
+
+.messageContainer {
+  font-family: 'Chela One', cursive;
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  width: auto;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+} 
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.messageContainer a {
+  text-decoration: underline;
+}
+
+.chat {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  background: #1D1F20;
+  width: 100%;
+  padding: 5px;
+  height: 60px;
+} 
+
+.messageInput {
+  flex: 1;
+  height: 50px;
+  color: wheat;
+  font-family: 'Black And White Picture', sans-serif;
+  font-size: 25px;
+  background-color: #1D1F20;
+  margin-right: 10px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  padding: 0 10px;
+}
+.updateUser{
+  font-family: 'Reggae One', cursive;
+  height: 50px;
+  font-size: 15px;
+  margin: 5px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  color: #1AAB8A;
+  background-color: #1D1F20;
+}
+.submit{
+  width:150px;
+  height:50px;
+  background: linear-gradient(to left top, #c32c71 50%, #b33771 50%);
+  border-style: none;
+  color:#fff;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-family: 'Lato';
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  padding: 0px;
+  overflow: hidden;
+  transition: all .5s;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+.submit span{
+  position: absolute;
+  display: block;
+}
+.submit span:nth-child(1){
+  height: 3px;
+  width:200px;
+  top:0px;
+  left:-200px;
+  background: linear-gradient(to right, rgba(0,0,0,0), #f6e58d);
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+  animation: span1 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes span1{
+  0%{
+      left:-200px
+  }
+  100%{
+      left:200px;
+  }
+}
+.submit span:nth-child(2){
+  height: 70px;
+  width: 3px;
+  top:-70px;
+  right:0px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), #f6e58d);
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  animation: span2 2s linear infinite;
+  animation-delay: 2s;
+}
+@keyframes span2{
+  0%{
+      top:-70px;
+  }
+  100%{
+      top:70px;
+  }
+}
+.submit span:nth-child(3){
+  height:3px;
+  width:200px;
+  right:-200px;
+  bottom: 0px;
+  background: linear-gradient(to left, rgba(0,0,0,0), #f6e58d);
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+  animation: span3 2s linear infinite;
+  animation-delay: 3s;
+}
+@keyframes span3{
+  0%{
+      right:-200px;
+  }
+  100%{
+      right: 200px;
+  }
+}
+
+.submit span:nth-child(4){
+  height:70px;
+  width:3px;
+  bottom:-70px;
+  left:0px;
+  background: linear-gradient(to top, rgba(0,0,0,0), #f6e58d);
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px;
+  animation: span4 2s linear infinite;
+  animation-delay: 4s;
+}
+@keyframes span4{
+  0%{
+      bottom: -70px;
+  }
+  100%{
+      bottom:70px;
+  }
+}
+
+.submit:hover{
+  transition: all .5s;
+  transform: rotate(-3deg) scale(1.1);
+  box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
+.submit:hover span{
+  animation-play-state: paused;
+}
+
+
+.user {
+  font-family: 'Walter Turncoat', cursive;
+  color:whitesmoke;
+}
