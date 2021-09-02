@@ -1,5 +1,5 @@
 <div align="center">
-<img width="210px" alt="logo" src="public/android-chrome-512x512.png">
+<img width="200px" alt="logo" src="public/android-chrome-512x512.png">
 <br>
 <h1>Nightly ☄️</h1>
 </div>
