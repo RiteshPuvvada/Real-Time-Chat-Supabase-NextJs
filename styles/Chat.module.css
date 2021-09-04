@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 .header {
-  top: 0;
+
   position: fixed;
   background: #1D1F20;
   height: 130px;
@@ -141,33 +141,17 @@
 }
 
 .container {
-  width: 40cm;
-  margin-right: 10px;
+  display: flex;
   flex-direction: column;
   padding: 1rem;
-  margin: 120px 0 1px 0;
+  margin: 120px 0 60px 0;
 }
+
 .messageContainer {
-  font-family: 'Chela One', cursive;
-  border: 2px solid #dedede;
-  border-radius: 5px;
-  padding: 10px;
+  border: 1px solid #eee;
   margin: 10px 0;
-  width: auto;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-} 
-@keyframes gradient {
-  0% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0% 50%;
-  }
+  padding: 10px;
+  border-radius: 2px;
 }
 
 .messageContainer a {
