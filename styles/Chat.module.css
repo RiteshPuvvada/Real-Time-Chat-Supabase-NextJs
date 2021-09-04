@@ -147,6 +147,11 @@
   padding: 1rem;
   margin: 120px 0 1px 0;
 }
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .messageContainer {
   font-family: 'Chela One', cursive;
