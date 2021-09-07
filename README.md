@@ -2,6 +2,11 @@
 <img width="205px" alt="logo" src="public/android-chrome-512x512.png">
 <br>
 <h1>Nightly ☄️</h1>
+<img alt="Documentation" src="https://img.shields.io/badge/docs-main-blue">
+<a href="https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs"></a>
+<a href="https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs"></a>
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs">
+<a href="https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs?style=social"></a>
 </div>
 
 
