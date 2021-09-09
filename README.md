@@ -43,8 +43,8 @@ $ npm install @supabase/supbase-js
 ```
 - Create `.env` file for the Supabase `URL` and `ANON` key:
 ```
-NEXT_PUBLIC_SUPABASE_URL= <YOUR SUPABASE URL>
-NEXT_PUBLIC_SUPABASE_API_KEY= <YOUR SUPABASE ANON KEY>
+NEXT_PUBLIC_SUPABASE_URL= < YOUR SUPABASE URL >
+NEXT_PUBLIC_SUPABASE_API_KEY= < YOUR SUPABASE ANON KEY >
 ```
 
 - [Install ESLint Plugin](https://reactjs.org/docs/hooks-rules.html):
