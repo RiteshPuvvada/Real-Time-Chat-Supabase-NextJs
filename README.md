@@ -31,10 +31,20 @@ A full-stack Slack clone example using:
 $ git clone https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs.git
 ```
 
+- Install the dependencies:
+```bash
+$ npm install
+```
+
 - Install supabase Javascript client:
 
 ```bash
 $ npm install @supabase/supbase-js
+```
+- Create `.env` file for the Supabase `URL` and `ANON` key:
+```
+NEXT_PUBLIC_SUPABASE_URL= <YOUR SUPABASE URL>
+NEXT_PUBLIC_SUPABASE_API_KEY= <YOUR SUPABASE ANON KEY>
 ```
 
 - [Install ESLint Plugin](https://reactjs.org/docs/hooks-rules.html):
