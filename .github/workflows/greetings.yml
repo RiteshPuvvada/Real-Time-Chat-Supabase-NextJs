@@ -10,7 +10,7 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         pr-message: |
-            👋 Hello @${{ github.actor }}!, thank you for submitting a 🚀 PR!
+            👋 Hello @${{ github.actor }} !, thank you for submitting a 🚀 PR!
              The maintainers of this project will review your pull request and get back to you as soon as possible.
         issue-message: |
-            👋 Hello @${{ github.actor }}!, thanks for dropping an issue. We will look into this as soon as possible.
+            👋 Hello @${{ github.actor }} !, thanks for dropping an issue. We will look into this as soon as possible.
