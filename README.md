@@ -39,7 +39,7 @@ $ npm install
 - Install supabase Javascript client:
 
 ```bash
-$ npm install @supabase/supbase-js
+$ npm install @supabase/supabase-js
 ```
 - Create `.env` file for the Supabase `URL` and `ANON` key:
 ```
