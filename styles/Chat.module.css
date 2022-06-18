@@ -147,7 +147,6 @@
   padding: 1rem;
   margin: 120px 0 1px 0;
 }
-
 .messageContainer {
   font-family: 'Chela One', cursive;
   border: 2px solid #dedede;
@@ -174,6 +173,7 @@
 .messageContainer a {
   text-decoration: underline;
 }
+
 
 .chat {
   position: fixed;

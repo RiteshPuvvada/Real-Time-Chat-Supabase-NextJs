@@ -1,7 +1,13 @@
 <div align="center">
-<img width="100px" alt="logo" src="public/android-chrome-512x512.png">
+<img width="205px" alt="logo" src="public/android-chrome-512x512.png">
 <br>
 <h1>Nightly ☄️</h1>
+<img alt="Documentation" src="https://img.shields.io/badge/docs-main-blue">
+<a href="https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs"></a>
+<a href="https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs"></a>
+<img alt="Uptime Robot ratio (7 days)" src="https://img.shields.io/uptimerobot/ratio/7/m789074376-4944aacf1aa54bc22fa9881a">
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs">
+<a href="https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs?style=social"></a>
 </div>
 
 
@@ -19,22 +25,49 @@ A full-stack Slack clone example using:
 
 ## Getting Started
 
-- Install supabase chat server using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app):
+- Clone the repository with:
 
+```
+$ git clone https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs.git
+```
+
+- Install the dependencies:
 ```bash
-$ npx create-next-app supabase-chat-server
+$ npm install
 ```
 
 - Install supabase Javascript client:
 
 ```bash
-$ npm install @supabase/supbase-js
+$ npm install @supabase/supabase-js
+```
+- Create `.env` file for the Supabase `URL` and `ANON` key:
+```
+NEXT_PUBLIC_SUPABASE_URL= < YOUR SUPABASE URL >
+NEXT_PUBLIC_SUPABASE_API_KEY= < YOUR SUPABASE ANON KEY >
 ```
 
-- Clone the repository with:
+- [Install ESLint Plugin](https://reactjs.org/docs/hooks-rules.html):
 
+```bash
+yarn add eslint-plugin-react-hooks@next
+# or
+npm install eslint-plugin-react-hooks@next
 ```
-$ git clone https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs.git
+- ESLint config:
+```bash
+// Your ESLint configuration
+{
+  "plugins": [
+    // ...
+    "react-hooks"
+  ],
+  "rules": {
+    // ...
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
+  }
+}
 ```
 
 - run the development server:
@@ -61,3 +94,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## License
+
+This repository is under The MIT License. Read the [LICENSE](https://github.com/RiteshPuvvada/Real-Time-Chat-Supabase-NextJs/blob/main/LICENSE) file for more information.
