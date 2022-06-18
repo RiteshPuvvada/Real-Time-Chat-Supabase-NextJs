@@ -196,7 +196,7 @@
   dependencies:
     cross-fetch "^3.1.0"
 
-"@supabase/supabase-js@^1.21.1":
+"@supabase/supabase-js@^1.35.3":
   version "1.35.3"
   resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.35.3.tgz#3ee5a8f4b2e5ba3764f39b61118e07cf9f996e8b"
   integrity sha512-uwO8OVdMFsGZNZ1xQhFz22+PSW0EWYZ5xVq+jQeGz8nhabEu+Q9Uyep/bcNzOpyPJRzbGfxSPRzgAdAxfJgFhw==
