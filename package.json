@@ -12,7 +12,7 @@
     "@supabase/supabase-js": "^1.21.1",
     "eslint-plugin-react-hooks": "^4.2.1-alpha-46a0f050a-20210828",
     "next": "12.1.6",
-    "node": "17.7.2",
+    "node": "18.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
