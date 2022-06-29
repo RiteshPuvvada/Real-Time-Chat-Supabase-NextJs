@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^1.21.1",
+    "@supabase/supabase-js": "^1.35.4",
     "eslint-plugin-react-hooks": "^4.2.1-alpha-46a0f050a-20210828",
     "next": "12.2.0",
     "node": "18.4.0",
