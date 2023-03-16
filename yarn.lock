@@ -1322,10 +1322,10 @@ node-gyp-build@^4.3.0:
   version "4.4.0"
   resolved "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.4.0.tgz"
 
-node@19.5.0:
-  version "19.5.0"
-  resolved "https://registry.yarnpkg.com/node/-/node-19.5.0.tgz#4e34cc5fcf643471c0475b36bf7edb27fc8475f0"
-  integrity sha512-WjVLuNLRSL7WhxlX0+X2/LurkK/Zgff4N1WAg9cjLdLXjYSN12ajy2YhlOtV3YVqWHVqyEm7wTs4Gnwp6cvI8Q==
+node@19.8.1:
+  version "19.8.1"
+  resolved "https://registry.yarnpkg.com/node/-/node-19.8.1.tgz#81b5c241369d1b37a98aecf9045ee7b7f11351f1"
+  integrity sha512-qAoX6xM9F/eEv4q4qgCXGSbXWruHVzVJX32XCZizSUNsg5ywYY7di9QMqSDFmPwvJrXjZuhNq2z80+lR9GumLg==
   dependencies:
     node-bin-setup "^1.0.0"
 
